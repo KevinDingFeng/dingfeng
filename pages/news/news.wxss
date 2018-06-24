@@ -1,0 +1,151 @@
+/* pages/news/news.wxss */
+page{
+  font-size: 24rpx;
+}
+.act-banner{
+  width: 100%;
+  height: 300rpx;
+}
+.act-banner image{
+  width: 100%;
+  height: 100%;
+}
+
+.act-top{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100rpx;
+  padding: 0 3%;
+  box-sizing: border-box;
+  transform: translateY(-30rpx);
+  color: #333;
+}
+.act-top .step1{
+  width: 20%;
+  height: 100rpx;
+  text-align: center;
+}
+.act-top .step1 image{
+  width: 100%;
+  height: 60%;
+}
+.act-top .step2{
+  margin-left: 3%;
+}
+.act-top .step2 .distance{
+  color: #ffc122;
+  font-size: 36rpx;
+}
+.act-top .step3{
+  font-size: 20rpx;
+  color: #cd3c39;
+  font-weight: 600;
+  margin-left: auto;
+  text-align: center;
+}
+
+.act-address{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 110rpx;
+  padding: 20rpx 3%;
+  box-sizing: border-box;
+  color: #fa3d3e;
+  /* background: url("https://gw.alicdn.com/tfs/TB17fuYkrsTMeJjSszdXXcEupXa-750-72.png_790x10000.jpg_.webp") no-repeat; */
+}
+.act-address .address_info{
+  line-height: 1.6;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+.act-address .share{
+  padding: 18rpx 20rpx 16rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  color: #fff;
+  font-weight: 600;
+  font-size: 28rpx;
+  background-color: #fa3d3e;
+}
+
+.act-con{
+  background-color: #ff4141;
+}
+.act-title{
+  position: relative;
+  width: 100%;
+  height: 50rpx;
+  padding: 50rpx 0;
+  text-align: center;
+}
+.act-title .bg{
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+.act-title .title{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%,-50%,0);
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.shop-list{
+  padding: 0 3% 6%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.list-details{
+  float: left;
+  width: 47%;
+  margin-bottom: 6%;
+  font-size: 20rpx;
+  background-color: #fff;
+}
+.list-details-con{
+  position: relative;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+.list-details-con .rob{
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  width: 60rpx;
+  height: 45rpx;
+  border-radius: 42%;
+  color: #fff;
+  text-align: center;
+  line-height: 45rpx;
+  background-color: #ff4141;
+}
+.list-details:last-child{
+  margin-bottom: 0;
+}
+.list-details:nth-child(even){
+  margin-left: 6%;
+}
+.list-details .img{
+  width: 100%;
+  height: 238rpx;
+}
+.txt{
+  margin: 6rpx 0;
+  color: #333;
+}
+.kill{
+  color: #ff4141;
+}
+.kill text{
+  font-size: 28rpx;
+}
+.price{
+  margin: 6rpx 0 16rpx;
+  color: #b1b1b1;
+  text-decoration: line-through;
+}

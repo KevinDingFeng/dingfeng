@@ -1,0 +1,18 @@
+<!--pages/coupon/coupon.wxml-->
+<view class='coupon-lists'>
+  <view class='coupon-item' wx:for="{{couponList}}" wx:for-itme="item" wx:key="ids">
+    <view class='coupon-item-fl'>
+      <view class='coupon-item-money'>¥100</view>
+      <view>通用券</view>
+    </view>
+    <view class='coupon-item-fr'>
+      <view class='coupon-item-name'>优惠券</view>
+      <view class='coupon-item-date'>失效日期:2018-1-13 23:59</view>
+    </view>
+  </view>
+</view>
+
+<view class='coupon-tip'>温馨提示：本优惠券只能去店里使用，到店更有更多精彩活动
+等着你，店铺地址：衡水中兴街国贸商城底层1301悠淑女装店
+</view>
+<button class='coupon-btn'>立即去店里 享更多优惠</button>

@@ -1,0 +1,17 @@
+<!--pages/vip/vip.wxml-->
+<view class='vip-banner'>
+  <image src='../../images/vip.png'></image>
+</view>
+
+<view class='vip-help'>
+  <button class='btn'>立即办卡</button>
+  <button class='btn'>升级vip</button>
+</view>
+
+<view class='vip-info'>
+  <view>会员说明：</view>
+  <view>1、分享成功并有有一位好友登录成功之后</view>
+  <view>2、可以根据日期积累集赞。</view>
+  <view>3、哪个日期上对应相应的奖品</view>
+  <view>4、积满一个月可以获得什么。</view>
+</view>

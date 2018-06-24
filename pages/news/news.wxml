@@ -1,0 +1,76 @@
+<!--pages/news/news.wxml-->
+<text>pages/news/news.wxml</text>
+<view class='act-banner'>
+  <image src='../../images/act-banner.png'></image>
+</view>
+
+<!-- <view class='act-top'>
+  <view class='step1'>
+    <image src='https://martin-upload.b0.upaiyun.com/web/2018/06/35478a08af46371a72c0c9304692ad91.jpg'></image>
+    <text>官方网站</text>
+  </view>
+  <view class='step2'>距离<text class='distance'>300</text>米</view>
+  <view class='step3'>
+    <view>24万</view>
+    <view>粉丝数</view>
+  </view>
+</view> -->
+
+<view class='act-address'>
+  <view class='address_info'>
+    <view>地址:河北省衡水市李家村</view>
+    <view>电话:15829384944</view>
+  </view>
+  <view class='share'>分享给朋友得好礼</view>
+</view>
+
+<view class='act-con'>
+  <view class='act-title'>
+    <image class='bg' src='../../images/act-titleBg.png'></image>
+    <view class='title'>秒杀</view>
+  </view>
+
+  <view class='shop-list'>
+    <view class='list-details' wx:for="shop_list" wx:for-item="item">
+      <image class='img' src='../../images/act-banner.png'></image>
+      <view class='list-details-con'>
+        <view class='txt'>来自太行山深处的无上密大自然的馈赠</view>
+        <view class='kill'>秒杀价:<text>¥600</text></view>
+        <view class='price'>原价:¥1200</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='act-title'>
+    <image class='bg' src='../../images/act-titleBg.png'></image>
+    <view class='title'>限时购</view>
+  </view>
+
+  <view class='shop-list'>
+    <view class='list-details' wx:for="shop_list" wx:for-item="item">
+      <image class='img' src='../../images/act-banner.png'></image>
+      <view class='list-details-con'>
+        <view class='txt'>来自太行山深处的无上密大自然的馈赠</view>
+        <view class='kill'>秒杀价:<text>¥600</text></view>
+        <view class='price'>原价:¥1200</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='act-title'>
+    <image class='bg' src='../../images/act-titleBg.png'></image>
+    <view class='title'>到店购</view>
+  </view>
+
+  <view class='shop-list'>
+    <view class='list-details' wx:for="shop_list" wx:for-item="item">
+      <image class='img' src='../../images/act-banner.png'></image>
+      <view class='list-details-con'>
+        <view class='txt'>来自太行山深处的无上密大自然的馈赠</view>
+        <view class='kill'>秒杀价:<text>¥600</text></view>
+        <view class='price'>原价:¥1200</view>
+        <view class='rob'>抢</view>
+      </view>
+    </view>
+  </view>
+</view>

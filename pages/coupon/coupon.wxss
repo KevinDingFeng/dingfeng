@@ -1,0 +1,57 @@
+/* pages/coupon/coupon.wxss */
+.coupon-lists{
+  margin-top: 20rpx;
+}
+.coupon-item{
+  display: flex;
+  align-items: center;
+  width: 94%;
+  height: 220rpx;
+  border-top: 1rpx solid #f1f1f1;
+  border-right: 1rpx solid #f1f1f1;
+  border-top-left-radius: 6rpx;
+  border-top-right-radius: 6rpx;
+  border-bottom-right-radius: 6rpx;
+  margin: 0 auto 20rpx;
+  text-align: center;
+  line-height: 64rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background: url("http://okyal4bzs.bkt.clouddn.com/couponBg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.coupon-item:last-child{
+  margin-bottom: 0;
+}
+.coupon-item-fl{
+  width: 28%;
+  font-weight: 100;
+}
+.coupon-item-fr{
+  width: 70%;
+}
+.coupon-item-money{
+  font-size: 48rpx;
+}
+.coupon-item-name{
+  color: #2ab9ff;
+  font-size: 32rpx;
+}
+.coupon-item-date{
+  color: #dfdfdf;
+}
+
+.coupon-tip{
+  width: 94%;
+  margin: 30rpx auto 0;
+  font-size: 26rpx;
+  color: #ff498e;
+  text-align: center;
+}
+.coupon-btn{
+  width: 80%;
+  margin: 30rpx auto 20rpx;
+  color: #fff;
+  font-size: 34rpx;
+  background-color: #ff498e;
+}

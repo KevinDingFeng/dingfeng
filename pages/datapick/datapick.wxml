@@ -1,0 +1,32 @@
+
+<view class='sign-date'>
+  <image src="../../images/signIn-bg.png"></image>
+
+  <view class='dataCon'>
+    <view class='sign-data-title'>
+      <view class='sign-data-time'>2018年6月</view>
+      <view class='sign-data-status'>已签到</view>
+    </view>
+    <view class='weeks'>
+      <view wx:for="{{weeks}}" wx:for-item="item" wx:for-index="idx">{{item}}</view>
+    </view>
+    <view class='days'>
+      <view wx:for="{{days}}" wx:for-item="item" wx:for-index="idx">{{item==0?' ':item}}</view>
+    </view>
+  </view>
+
+</view>
+
+<view class='sign-fen'>
+  <view class='sign-fen-title'>签到已获得积分</view>
+  <view class='sign-fen-num'>{{99}}</view>
+  
+  <button class='sign-fen-btn'>去兑换好礼</button>
+  <view class='sign-fen-txt'>
+    <text>活动规则</text>
+    <text>1、分享成功并有有一位好友登录成功之后</text>
+    <text>2、可以根据日期积累集赞。</text>
+    <text>3、哪个日期上对应相应的奖品</text>
+    <text>4、积满一个月可以获得什么。</text>
+  </view>
+</view>

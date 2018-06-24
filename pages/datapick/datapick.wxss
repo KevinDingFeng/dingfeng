@@ -1,0 +1,105 @@
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.sign-date{
+  position: relative;
+  width: 100%;
+  height: 604rpx;
+  color: #fff;
+  font-size: 24rpx;
+}
+.sign-date image{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.dataCon{
+  position: absolute;
+  top: 120rpx;
+  left: 10%;
+  width: 80%;
+}
+
+.sign-data-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sign-data-time{
+  font-size: 30rpx;
+}
+.sign-data-status{
+  height: 36rpx;
+  padding: 0 10rpx;
+  border-radius: 30%;
+  line-height: 36rpx;
+  font-size: 24rpx;
+  color: #eb4458;
+  background-color: rgba(255, 255, 255, .8);
+}
+.weeks{
+  display: flex;
+  height: 45rpx;
+  width: 100%;
+  margin-top: 30rpx;
+}
+.weeks view{
+  flex: 1;
+  text-align: center;
+}
+.days{
+  display: flex; 
+  flex-wrap: wrap;
+  height: 45rpx;
+  width: 100%;
+  padding: 5rpx 0;
+}
+.days view{
+  padding: 10rpx 0;
+  flex: 14.2%;
+  flex-grow: 0;
+  text-align: center;
+}
+
+.sign-fen{
+  width: 94%;
+  margin: 0 auto;
+}
+.sign-fen-title{
+  padding-top: 20rpx;
+  color:#959595;
+  font-size: 24rpx;
+}
+.sign-fen-num{
+  margin: 10rpx 0;
+  text-align: center;
+  color: #eb4458;
+  font-size: 68rpx;
+  font-weight: 600;
+}
+.sign-fen-btn{
+  width: 60%;
+  height: 90rpx;
+  border-radius: 50%;
+  border: none;
+  margin: 0 auto;
+  line-height: 90rpx;
+  color: #eb4458;
+  background-color: #fff;
+}
+.sign-fen-txt{
+  width: 96%;
+  border-top: 1rpx solid #d2d2d2;
+  padding-top: 60rpx;
+  margin: 0 auto 0;
+  font-size: 24rpx;
+  color: #666;
+}
+.sign-fen-txt text{
+  display: block;
+  line-height: 2;
+}

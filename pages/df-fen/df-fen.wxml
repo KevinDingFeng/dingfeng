@@ -1,0 +1,46 @@
+<!--pages/df-fen/df-fen.wxml-->
+<view class='fen-banner'>
+  <image src='../../images/fen-banner.png'></image>
+</view>
+
+<view class='my-fenStep'>
+  <view class='my-fen'>
+    <view>我的积分:<text class='my-fen-num'>1999</text> </view>
+    <view class='my-fen-btn'>兑换记录</view>
+  </view>
+</view>
+
+<view class='my-fenStep1'>
+  <view class='my-fen'>
+    <view>积分兑换优惠券专区</view>
+  </view>
+</view>
+
+<view class='fen-quanList'>
+  <view class='fen-quan' wx:for="{{quanList}}" wx:for-item="item" wx:for-id="{{item}}">
+    <image src='../../images/fen-icon.png'></image>
+    <view class='conTxt'>
+      <view class='money'>{{item}}元</view>
+      <view class='tomoney'>代金券</view>
+      <view class='tofen'>{{item*100}}积分</view>
+    </view>
+  </view>
+</view>
+
+
+<view class='my-fenStep1'>
+  <view class='my-fen'>
+    <view>积分兑换现金专区</view>
+  </view>
+</view>
+
+<view class='fen-quanList'>
+  <view class='fen-quan' wx:for="{{quanList}}" wx:for-item="item" wx:for-id="{{item}}">
+    <image src='../../images/fen-icon.png'></image>
+    <view class='conTxt'>
+      <view class='money'>{{item}}元</view>
+      <view class='tomoney'>现金</view>
+      <view class='tofen'>{{item*100}}积分</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/maps/maps.wxml-->
+<view>
+  <map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" polyline bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+</view>
+
+<view class='maps'>
+  <view class='maps-fl'>
+    <view>无上密官方网站</view>
+    <view>地址:北京市朝阳区南湖西园221</view>
+    <view>电话：15711358177</view>
+  </view>
+  <view class='maps-fr'>
+    <button>分享店铺得好礼</button>
+  </view>
+</view>
+
+<view class='maps-info'>
+  <image class='maps-info-img' src='../../images/act-banner.png'></image>
+  <view class='maps-info-txt'>在这个日新月异的时代，科技的发展让生活充满了不可思议；让
+很多不可能变成了可能，但也出现了一些不和谐的音符（地沟
+油、三鹿奶粉等等），不可否认，在这个鱼龙混杂的市场上出现
+了许多假冒的蜂蜜（化学合成、真蜂蜜炒糖等等）；谁买了蜂蜜
+也不敢百分之百的保证这个就是真的，听起来有点危言耸听的意
+思，但事实的确如此。为了能让大家品尝到来自大山里的纯天然
+蜂蜜，我们决定用互联网的方式去完成这件事，从蜜蜂养殖到淳
+朴工艺筛蜜，然后蜂蜜灌装到物流发货，每一个环节都通过直播
+的方式呈现给大家，为了防止不法分子的冒名，每瓶蜂蜜都有一
+个独一无二'身份证'，朋友们通过互联网平台买到蜂蜜之后，可
+通过这个身份证码来官网验证，如果验证成功，那我们就敢立下
+军令状：此蜂蜜百分百为真</view>
+</view>
